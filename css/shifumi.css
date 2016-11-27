@@ -1,0 +1,27 @@
+.center_board{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+}
+#pickemup{
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+}
+#shifumi_board{
+   display:none;
+}
+.choices{
+    width:30%;
+    margin:5px;
+}
+.rps, .pickNoHide{
+    border-radius: 25%;
+    display:flex;
+}
+/*.noPickHide{
+    display:none;
+}*/
+.pickNoHide{
+    transform: scale(1.2);
+}
